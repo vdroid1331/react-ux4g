@@ -1,0 +1,51 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Docs/Get Started" />
+
+# Get Started
+
+Follow this guide to integrate React UX4G into your React application quickly.
+
+## Installation
+
+You can install the library via npm. Open your terminal and run:
+
+```bash
+npm i react-ux4g
+```
+
+## Basic Usage
+
+Once installed, you can start importing components directly into your React files.
+
+```jsx
+import React from 'react';
+import { Button, Container, Row, Col } from 'react-ux4g';
+
+function App() {
+  return (
+    <Container className="p-5">
+      <Row>
+        <Col>
+          <h1>Hello, UX4G!</h1>
+          <p>Welcome to your new React application.</p>
+          <Button variant="primary">Click Me</Button>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default App;
+```
+
+## Styling
+
+To ensure the components render correctly, make sure you have the core styles imported. Depending on your setup (Vite, Create React App, Next.js), you typically import this in your root `index.js`, `main.jsx`, or `_app.js` file:
+
+```jsx
+import 'react-ux4g/dist/style.css'; // Adjust the path based on the actual build output
+```
+
+## Next Steps
+Browse through the **Components** section in the sidebar to view live, interactive examples and detailed API documentation for every component in the library!

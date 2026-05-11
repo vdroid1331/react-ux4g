@@ -1,0 +1,28 @@
+*
+
+node_modules/
+storybook-static/
+src/stories/
+src/docs/
+.storybook/
+.github/
+.vscode/
+.env
+.env.local
+.DS_Store
+*.log
+npm-debug.log*
+
+# Scripts
+*.cjs
+generate_*.js
+
+# Archives and Original Assets
+*.zip
+ux4g-assets/
+# Only publish dist, package.json, README, and src/components
+!dist/
+!src/components/
+!src/assets/
+!README.md
+!package.json

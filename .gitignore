@@ -1,0 +1,23 @@
+node_modules/
+dist/
+storybook-static/
+.env
+.env.local
+.DS_Store
+.storybook/
+.gemini/
+*.log
+npm-debug.log*
+
+# Scripts
+*.cjs
+generate_*.js
+
+# Archives and Original Assets
+*.zip
+ux4g-assets/
+
+# IDE and Testing
+.vscode/
+.idea/
+coverage/
