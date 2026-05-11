@@ -4,7 +4,8 @@ storybook-static/
 .env
 .env.local
 .DS_Store
-.storybook/
+# for now add .storybook
+# .storybook/
 .gemini/
 *.log
 npm-debug.log*
