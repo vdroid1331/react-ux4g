@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/react-ux4g.svg?style=flat-square)](https://www.npmjs.com/package/react-ux4g)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-**React UX4G** is the official React implementation of the [UX4G (User Experience for Government)](https://ux4g.gov.in/) design system. Developed under the vision of the **Ministry of Electronics and Information Technology (MeitY)** and the **National Informatics Centre (NIC)**, this library provides a highly accessible, responsive, and robust set of React components specifically designed to build modern digital services for the Government of India.
+**React UX4G** is the unofficial React implementation of the [UX4G (User Experience for Government)](https://ux4g.gov.in/) design system. Developed under the vision of the **Ministry of Electronics and Information Technology (MeitY)** and the **National Informatics Centre (NIC)**, this library provides a highly accessible, responsive, and robust set of React components specifically designed to build modern digital services for the Government of India.
 
 > **Note**: This is the React adaptation of the core UX4G HTML/CSS framework.
 
